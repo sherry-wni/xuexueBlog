@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+   "docs:dev": "vuepress dev docs",
+   "docs:build": "vuepress build docs",
+   "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-plugin-meting": "^0.3.1",
+    "vuepress-theme-reco": "1.6.6"
+  },
+  "description": "\"技术总结\"",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "vuepress-plugin-cursor-effects": "^1.0.2"
+  }
+}
